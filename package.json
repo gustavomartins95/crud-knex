@@ -1,0 +1,39 @@
+{
+  "name": "crud-knex",
+  "version": "1.0.0",
+  "description": "Crud with knex.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index",
+    "start": "node src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavomartins95/crud-knex.git"
+  },
+  "keywords": [],
+  "author": "Gustavo Martins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavomartins95/crud-knex/issues"
+  },
+  "homepage": "https://github.com/gustavomartins95/crud-knex#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  }
+}
